@@ -1,0 +1,45 @@
+{
+  "name": "grunt-slim-html",
+  "description": "Compile Slim to HTML",
+  "version": "0.0.1",
+  "homepage": "https://github.com/zwagner86/grunt-slim-html",
+  "author": {
+    "name": "Zachary Wagner",
+    "url": "https://github.com/zwagner86/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zwagner86/grunt-slim-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zwagner86/grunt-slim-html/issues"
+  },
+  "license": "MIT",
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "dargs": "^2.1.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-internal": "^4.0.1",
+    "grunt": "^1.0.4"
+  },
+  "peerDependencies": {
+    "grunt": "^1.0.4"
+  },
+  "keywords": [
+    "gruntplugin",
+    "slim",
+    "compile",
+    "preprocessor",
+    "html"
+  ]
+}
